@@ -1,5 +1,52 @@
-The program supports those letters and symbols:
+# Text2Morse
 
-A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
-1 2 3 4 5 6 7 8 9 0
-, . ? / - ( )
+A lightweight Python utility that converts input text into Morse code sequences. Supports letters, digits, and common punctuation.
+
+## 🚀 Features
+
+- Converts alphanumeric text and punctuation into international Morse code.  
+- Pure Python, zero-dependency script.  
+- Easily extensible: add new character-to-Morse mappings in a single dictionary.
+
+## ⚙️ Usage
+
+Convert text directly from the command line:
+
+```bash
+python text to morse application "Hello, World!"
+```
+
+Example output:
+```
+.... . .-.. .-.. --- --..-- / .-- --- .-. .-.. -.. -.-.--
+```
+
+
+## 🔠 Supported Characters
+
+| Character | Morse Code  | Character | Morse Code |
+|-----------|-------------|-----------|-------------|
+| A         | .-          | N         | -.          |
+| B         | -...        | O         | ---         |
+| C         | -.-.        | P         | .--.        |
+| D         | -..         | Q         | --.-        |
+| E         | .           | R         | .-.         |
+| F         | ..-.        | S         | ...         |
+| G         | --.         | T         | -           |
+| H         | ....        | U         | ..-         |
+| I         | ..          | V         | ...-        |
+| J         | .---        | W         | .--         |
+| K         | -.-         | X         | -..-        |
+| L         | .-..        | Y         | -.--        |
+| M         | --          | Z         | --..        |
+| 0         | -----       | , (comma) | --..--      |
+| 1         | .----       | . (period)| .-.-.-      |
+| 2         | ..---       | ?         | ..--..      |
+| 3         | ...--       | /         | -..-.       |
+| 4         | ....-       | - (dash)  | -....-      |
+| 5         | .....       | (         | -.--.       |
+| 6         | -....       | )         | -.--.-      |
+| 7         | --...       |           |             |
+| 8         | ---..       |           |             |
+| 9         | ----.       |           |             |
+
