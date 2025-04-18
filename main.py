@@ -13,3 +13,5 @@ MORSE_CODE_DICTIONARY = { 'A':'.-', 'B':'-...',
                     '0':'-----', ', ':'--..--', '.':'.-.-.-',
                     '?':'..--..', '/':'-..-.', '-':'-....-',
                     '(':'-.--.', ')':'-.--.-'}
+
+message = input('Enter your message that you want to encrypt to morse code: ')
