@@ -23,4 +23,5 @@ for letter in message:
     else:
         encrypted_message += MORSE_CODE_DICTIONARY[letter]
 
+
 print(f'Your encrypted message is: {encrypted_message}')
