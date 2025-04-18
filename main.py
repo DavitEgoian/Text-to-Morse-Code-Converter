@@ -16,3 +16,11 @@ MORSE_CODE_DICTIONARY = { 'A':'.-', 'B':'-...',
 
 message = input('Enter your message that you want to encrypt to morse code: ').upper()
 
+encrypted_message = ""
+for letter in message:
+    if letter == ' ':
+        encrypted_message += ' '
+    else:
+        encrypted_message += MORSE_CODE_DICTIONARY[letter]
+
+print(f'Your encrypted message is: {encrypted_message}')
