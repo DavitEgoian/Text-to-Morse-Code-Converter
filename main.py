@@ -14,4 +14,5 @@ MORSE_CODE_DICTIONARY = { 'A':'.-', 'B':'-...',
                     '?':'..--..', '/':'-..-.', '-':'-....-',
                     '(':'-.--.', ')':'-.--.-'}
 
-message = input('Enter your message that you want to encrypt to morse code: ')
+message = input('Enter your message that you want to encrypt to morse code: ').upper()
+
