@@ -1,6 +1,6 @@
-# Text2Morse
+# Text to Morse Code Converter
 
-A lightweight Python utility that converts input text into Morse code sequences. Supports letters, digits, and common punctuation.
+A text-based Python program to convert Strings into Morse Code.
 
 ## 🚀 Features
 
